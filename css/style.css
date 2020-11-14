@@ -1,0 +1,73 @@
+
+p{
+  color: white;
+  font-size: 18px;
+}
+
+.nav-link{
+  color: black;
+
+}
+.navbar
+{
+    background-color:rgba(187, 197, 202, 0.753);
+}
+
+
+.jumbotron{
+    background: no-repeat center center; 
+    background-size: cover linear-gradient(rgba(95, 82, 82, 0.5), rgba(138, 130, 130, 0.5)), url('img/ev-gpjvRZyavZc-unsplash.jpg');
+    height: 100vh
+}
+
+/* Place text in the middle of the image */
+.display4 {
+  text-align: center right;
+  color : white;
+}
+.quote1{
+  text-align: left;
+  position: absolute;
+  bottom:  15%;
+  left: 25%;
+  color: white;
+  font-size: 20px;
+}
+
+.introButton{
+position: absolute;
+bottom: 8%;
+left: 50%;
+
+}
+.imageRef1{
+  position: center bottom;
+    position: absolute;
+    bottom: 8px;
+    right: 16px;
+    font-size: 18px;
+  }
+
+  /* Body of materials of written information*/
+.gutMaterials{
+  background:#6c757d;;
+  }
+
+.gutMaterials h2, p{
+  color:white;
+}
+
+.container{
+  border-radius: 15px;
+}
+
+/*--- Footer section  */
+.page-footer .footer-links {
+  text-align: right;
+}
+ 
+@media screen and (max-width: 767px) {
+  .page-footer .footer-child {
+    text-align: center;
+  }
+}
