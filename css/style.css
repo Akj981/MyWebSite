@@ -4,10 +4,6 @@ p{
   font-size: 18px;
 }
 
-.nav-link{
-  color: black;
-
-}
 .navbar
 {
     background-color:rgba(187, 197, 202, 0.753);
@@ -16,7 +12,7 @@ p{
 
 .jumbotron{
     background: no-repeat center center; 
-    background-size: cover linear-gradient(rgba(95, 82, 82, 0.5), rgba(138, 130, 130, 0.5)), url('img/ev-gpjvRZyavZc-unsplash.jpg');
+    background-size: cover linear-gradient(rgba(58, 86, 119, 0.5), rgba(84, 102, 141, 0.5)), url('img/ev-gpjvRZyavZc-unsplash.jpg');
     height: 100vh
 }
 
@@ -36,8 +32,8 @@ p{
 
 .introButton{
 position: absolute;
+align-content: center;
 bottom: 8%;
-left: 50%;
 
 }
 .imageRef1{
@@ -50,11 +46,11 @@ left: 50%;
 
   /* Body of materials of written information*/
 .gutMaterials{
-  background:#6c757d;;
+  background:rgba(202, 146, 42, 0.815);
   }
 
 .gutMaterials h2, p{
-  color:white;
+  color:black;
 }
 
 .container{
@@ -64,10 +60,17 @@ left: 50%;
 /*--- Footer section  */
 .page-footer .footer-links {
   text-align: right;
+  
 }
+
+.page-footer {
+  background-color:rgba(187, 197, 202, 0.753);
+}
+
  
 @media screen and (max-width: 767px) {
   .page-footer .footer-child {
+    
     text-align: center;
   }
 }
