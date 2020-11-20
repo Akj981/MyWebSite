@@ -13,7 +13,7 @@ p{
 .jumbotron{
     background: no-repeat center center; 
     background-size: cover linear-gradient(rgba(58, 86, 119, 0.5), rgba(84, 102, 141, 0.5)), url('img/ev-gpjvRZyavZc-unsplash.jpg');
-    height: 100vh
+    height: 100vh;
 }
 
 /* Place text in the middle of the image */
@@ -22,18 +22,22 @@ p{
   color : white;
 }
 .quote1{
-  text-align: left;
-  position: absolute;
-  bottom:  15%;
-  left: 25%;
-  color: white;
-  font-size: 20px;
+  width: 1592px;
+  height: 48px;
+  color: #ffffff;
+  font-size: 36px;
+  font-weight: 400;
+  line-height: 48px;
+  text-align: center;
+  bottom: 8px;
+
 }
 
 .introButton{
 position: absolute;
 align-content: center;
-bottom: 8%;
+bottom: 8px;
+left: 16px;
 
 }
 .imageRef1{
