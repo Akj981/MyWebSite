@@ -1,80 +1,53 @@
-
-p{
+p {
   color: white;
   font-size: 18px;
 }
 
-.navbar
-{
-    background-color:rgba(187, 197, 202, 0.753);
+.heroBanner {
+  z-index: 1;
+  top: 10px;
+  width: 100%;
+  height: 100%;
+  opacity: 90%;
+
 }
+/* Place text in the middle of the video */
 
-
-.jumbotron{
-    background: no-repeat center center; 
-    background-size: cover linear-gradient(rgba(58, 86, 119, 0.5), rgba(84, 102, 141, 0.5)), url('img/ev-gpjvRZyavZc-unsplash.jpg');
-    height: 100vh;
-}
-
-/* Place text in the middle of the image */
-.display4 {
-  text-align: center right;
-  color : white;
+.hero-text{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 .quote1{
-  width: 1592px;
-  height: 48px;
-  color: #ffffff;
-  font-size: 36px;
-  font-weight: 400;
-  line-height: 48px;
-  text-align: center;
-  bottom: 8px;
+  color: Orange;
+  font-size: 20px;
+}
+
+.btn {
+  border: 2px solid black;
+  background-color: white;
+  color: black;
+  padding: 14px 28px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+/* Body of materials of written information*/
+.gutMaterials {
+  background: rgba(202, 146, 42, 0.815);
+  max-width: 100%;
 
 }
 
-.introButton{
-position: absolute;
-align-content: center;
-bottom: 8px;
-left: 16px;
-
-}
-.imageRef1{
-  position: center bottom;
-    position: absolute;
-    bottom: 8px;
-    right: 16px;
-    font-size: 18px;
-  }
-
-  /* Body of materials of written information*/
-.gutMaterials{
-  background:rgba(202, 146, 42, 0.815);
-  }
-
-.gutMaterials h2, p{
-  color:black;
+.gutMaterials h2, p {
+  color: black;
+  font-size: 15px;
 }
 
-.container{
-  border-radius: 15px;
-}
 
 /*--- Footer section  */
-.page-footer .footer-links {
-  text-align: right;
-  
-}
-
-.page-footer {
-  background-color:rgba(187, 197, 202, 0.753);
-}
-
- 
-@media screen and (max-width: 767px) {
-  .page-footer .footer-child {
-    
-    text-align: center;
-  }
+.page-footer p,.footer-links {
+  text-align: center;
+  color:white;
 }
