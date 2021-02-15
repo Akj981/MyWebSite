@@ -1,6 +1,6 @@
 p {
-  color: white;
-  font-size: 18px;
+  color: black;
+  font-size: 15px;
 }
 
 .heroBanner {
@@ -8,27 +8,42 @@ p {
   top: 10px;
   width: 100%;
   height: 100%;
-  opacity: 90%;
+  opacity: 80%;
 
 }
 /* Place text in the middle of the video */
 
 .hero-text{
+  z-index: 0;
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+ 
 }
+
+/* display  welcome to van's website*/
+.display4{
+  font-size: 3vw;
+  text-shadow: 2px 2px black;
+}
+
 .quote1{
   color: Orange;
-  font-size: 20px;
+  font-size: 2vw;
+  text-shadow: 2px 2px black;
+}
+
+.linkVideo {
+font-size: 1vw;
+color: white;
 }
 
 .btn {
   border: 2px solid black;
   background-color: white;
   color: black;
-  padding: 14px 28px;
+  padding: 10px 20px;
   font-size: 16px;
   cursor: pointer;
 }
@@ -38,11 +53,6 @@ p {
   background: rgba(202, 146, 42, 0.815);
   max-width: 100%;
 
-}
-
-.gutMaterials h2, p {
-  color: black;
-  font-size: 15px;
 }
 
 
